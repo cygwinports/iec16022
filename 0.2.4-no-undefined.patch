@@ -1,0 +1,11 @@
+--- origsrc/iec16022-0.2.4/Makefile.am	2009-10-17 08:35:17.000000000 -0500
++++ src/iec16022-0.2.4/Makefile.am	2011-05-26 17:03:57.655995500 -0500
+@@ -9,7 +9,7 @@ libiec16022include_HEADERS =	\
+ 
+ libiec16022includedir = $(includedir)/iec16022
+ 
+-libiec16022_la_LDFLAGS = -version-number $(LT_VERSION_C):$(LT_VERSION_R):$(LT_VERSION_A)
++libiec16022_la_LDFLAGS = -version-number $(LT_VERSION_C):$(LT_VERSION_R):$(LT_VERSION_A) -no-undefined
+ 
+ bin_PROGRAMS = iec16022
+ 

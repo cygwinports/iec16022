@@ -1,0 +1,6 @@
+category: Graphics
+requires: zlib0
+external-source: iec16022
+sdesc: "ISO/IEC 16022 data matrix symbol library (runtime)"
+ldesc: "With iec16022 you can produce 2D barcodes, often also 
+referenced as Data Matrix symbols."
