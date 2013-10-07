@@ -1,0 +1,17 @@
+NAME="iec16022"
+VERSION=0.2.4
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="ISO/IEC 16022 data matrix symbol library"
+DESCRIPTION="With iec16022 you can produce 2D barcodes, often also referenced
+as Data Matrix symbols."
+HOMEPAGE="http://www.datenfreihafen.org/projects/iec16022.html"
+SRC_URI="http://www.datenfreihafen.org/~stefan/iec16022/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="0.2.4-no-undefined.patch"
+
+PKG_NAMES="${NAME} lib${NAME}_0 lib${NAME}-devel"
+iec16022_CATEGORY="Graphics"
+iec16022_SUMMARY=${SUMMARY/library/utility}
+iec16022_CONTENTS="usr/bin/*.exe usr/share/"
+libiec16022_0_CONTENTS="usr/bin/cygiec16022-0.dll"
+libiec16022_devel_CONTENTS="usr/include/ usr/lib/"

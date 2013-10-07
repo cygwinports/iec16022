@@ -1,6 +1,0 @@
-category: Graphics
-requires: libiec16022_0
-external-source: iec16022
-sdesc: "ISO/IEC 16022 data matrix symbol library (development)"
-ldesc: "With iec16022 you can produce 2D barcodes, often also 
-referenced as Data Matrix symbols."
